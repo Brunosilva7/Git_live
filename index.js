@@ -5,7 +5,7 @@ const app = express();
 
 // Our request route
 app.get('/teste', (req, res) => {
-  return res.json({Project: 'with express'})
+  return res.json({Project: 'with express and React'})
 
 });
 
